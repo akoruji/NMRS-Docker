@@ -1,0 +1,24 @@
+version: '3'
+services:
+  nmrs1:
+    image: akoruji/nmrs-tomcat:latest
+    ports:
+      - "8082:8080"
+    depends_on:
+      - mysql
+  
+  nmrs2:
+    image: akoruji/nmrs-tomcat:latest
+    ports:
+      - "8083:8080"
+    depends_on:
+      - mysql  
+
+  mysql:
+    image: akoruji/mysql:5.7
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=*****
+      - MYSQL_DATABASE=*****
+      - MYSQL_PASSWORD=*****
