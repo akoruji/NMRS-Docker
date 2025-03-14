@@ -1,6 +1,6 @@
 # You will require internet connection to run this installation!
 
-# This app will create 2 instances of NMRS on docker.
+# This app will create 2 (or more) instances of NMRS on docker.
 The docker-compose.yml file contains the configuration variables that can be adjusted as required. Inside you can see the Tomcat services and images and MySQL services and images. You can also see the various ports. You can configure the .yml file to increase or decrease the number of NMRS instances as required but be mindful of system resources.
 
 # To buid the appliation:
