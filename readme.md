@@ -6,12 +6,15 @@ The docker-compose.yml file contains the configuration variables that can be adj
 Once you're done, open the current directory and type:
 docker-compose up -d
 
-# To tune the MySQL performance: When the MySQL container is running, you can edit the etc/my.cnf file in the Docker root directory.
-# Remember to create users and grant privileges before importing your database.
+# To tune the MySQL performance: 
+When the MySQL container is running, you can edit the etc/my.cnf file in the Docker root directory.
+Remember to create users and grant privileges before importing your database.
 
-# To add modules: When the tomcat container is running, go to root/.OpenMRS/modules
+# To add modules:
+When the tomcat container is running, go to root/.OpenMRS/modules
 
-# Need to add the following to the tomcat and mysql services in docker-compose.yml file to autostart
+# Note: 
+Need to add the following to the tomcat and mysql services in docker-compose.yml file to autostart. 
 restart: always
 
 # Manual Timezone Configuration
