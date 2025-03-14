@@ -50,11 +50,11 @@ https://docs.docker.com/desktop/install/windows-install/
 https://wiki.openmrs.org/display/docs/Installing+OpenMRS+on+Docker
 
 # Project Team
-Bright Ibezim (Team Lead)
-Abdulmojeed Akande
-Temitayo Raimi
-Oluwadamilare Adebawo
-Akor Uji
-Kolawole Adesoji
-Tochukwu Emeka
-Halima Baba
+1. Bright Ibezim (Team Lead)
+2. Abdulmojeed Akande
+3. Temitayo Raimi
+4. Oluwadamilare Adebawo
+5. Akor Uji
+6. Kolawole Adesoji
+7. Tochukwu Emeka
+8. Halima Baba
