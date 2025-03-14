@@ -1,4 +1,4 @@
-# You will require internet connection to run this installation!
+# This installation requires internet connection.
 
 # This app will create 2 (or more) instances of NMRS on docker.
 The docker-compose.yml file contains the configuration variables that can be adjusted as required. Inside you can see the Tomcat services and images and MySQL services and images. You can also see the various ports. You can configure the .yml file to increase or decrease the number of NMRS instances as required but be mindful of system resources.
@@ -38,4 +38,24 @@ cp /usr/share/zoneinfo/Africa/Lagos /etc/localtime
 4. Verify the Change: Type the date command to confirm the timezone is updated:
 date
 
+# For more deatils on how to get started with NMRS on Docker:
+1. Install Docker desktop for windows. [Click here to learn more.](https://docs.docker.com/desktop/install/windows-install/)
+2. Create a docker-compose.yml file [Click here to learn more.](https://github.com/ihvn2020/NMRS-POC-Docker/tree/main/Create%20docker-compose%20yml%20files)
+3. Create a Dockerfile [Click here to learn more.](https://github.com/ihvn2020/NMRS-POC-Docker/tree/main/Create%20Dockerfile)
+4. [Click here to download the complete installation guide.](https://github.com/ihvn2020/NMRS-POC-Docker/blob/main/NMRS%20INSTALLATION%20USING%20DOCKER%20ON%20WINDOWS.docx)
+
+# References
+https://docs.docker.com/get-started/
+https://docs.docker.com/desktop/install/windows-install/
+https://wiki.openmrs.org/display/docs/Installing+OpenMRS+on+Docker
+
+# Project Team
+Bright Ibezim (Team Lead)
+Abdulmojeed Akande
+Temitayo Raimi
+Oluwadamilare Adebawo
+Akor Uji
+Kolawole Adesoji
+Tochukwu Emeka
+Halima Baba
 
