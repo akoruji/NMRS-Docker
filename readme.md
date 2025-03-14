@@ -14,7 +14,7 @@ Remember to create users and grant privileges before importing your database.
 When the tomcat container is running, go to root/.OpenMRS/modules
 
 # Note: 
-Need to add the following to the tomcat and mysql services in docker-compose.yml file to autostart. 
+You may need to add the following to the tomcat and mysql services in docker-compose.yml file to autostart. 
 restart: always
 
 # Manual Timezone Configuration
