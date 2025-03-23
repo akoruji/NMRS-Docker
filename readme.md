@@ -4,7 +4,7 @@
 The docker-compose.yml file contains the configuration variables that can be adjusted as required. Inside you can see the Tomcat services and images and MySQL services and images. You can also see the various ports. You can configure the .yml file to increase or decrease the number of NMRS instances as required but be mindful of system resources.
 
 # To buid the appliation:
-Open a terminal or dommand prompt inside the current directory and type:
+Open a terminal or command prompt inside the current directory and type:
 docker-compose up -d
 
 # To tune the MySQL performance: 
